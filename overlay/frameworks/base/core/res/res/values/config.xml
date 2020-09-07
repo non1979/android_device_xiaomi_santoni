@@ -486,10 +486,10 @@
 
     <!--Systeminfo for quick settings header -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
-    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
-    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
-    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
-    <integer name="config_sysCPUTempMultiplier">1</integer>
-    <integer name="config_sysBatteryTempMultiplier">10</integer>
+    <string name="config_sysBatteryTemp">/sys/class/thermal/thermal_zone36/temp</string>
+    <string name="config_sysGPUFreq">/sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpuclk</string>
+    <string name="config_sysGPULoad">/sys/devices/platform/soc/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpu_busy_percentage</string>
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <integer name="config_sysBatteryTempMultiplier">1000</integer>
 
 </resources>
